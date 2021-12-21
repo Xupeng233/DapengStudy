@@ -1,0 +1,6 @@
+framework module DPGuix {
+  umbrella header "DPGuix-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module DPHome {
+  umbrella header "DPHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

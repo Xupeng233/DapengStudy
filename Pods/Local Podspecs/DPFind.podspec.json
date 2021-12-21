@@ -1,0 +1,27 @@
+{
+  "name": "DPFind",
+  "version": "0.0.2",
+  "summary": "A short description of DPFind.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Xupeng233/DPFind",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Xupeng233": "tongxupeng@126.com"
+  },
+  "source": {
+    "git": "git@github.com:Xupeng233/DPFind.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DPFind/Classes/**/*",
+  "dependencies": {
+    "QMUIKit": [
+
+    ]
+  }
+}

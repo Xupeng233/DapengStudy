@@ -1,0 +1,27 @@
+{
+  "name": "DPMine",
+  "version": "0.0.2",
+  "summary": "我的",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Xupeng233/DPMine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tongxupeng": "tongxupeng@126.com"
+  },
+  "source": {
+    "git": "git@github.com:Xupeng233/DPMine.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "DPMine/Classes/**/*",
+  "dependencies": {
+    "QMUIKit": [
+
+    ]
+  }
+}
