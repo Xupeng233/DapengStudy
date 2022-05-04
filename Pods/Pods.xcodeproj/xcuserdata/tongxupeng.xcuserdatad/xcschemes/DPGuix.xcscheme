@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B89D85A6AED5A7261E7ACC75B28B326F"
-               BuildableName = "DPGuix.framework"
+               BuildableName = "libDPGuix.a"
                BlueprintName = "DPGuix"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

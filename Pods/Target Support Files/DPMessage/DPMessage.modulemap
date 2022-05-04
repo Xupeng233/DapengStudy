@@ -1,6 +1,0 @@
-framework module DPMessage {
-  umbrella header "DPMessage-umbrella.h"
-
-  export *
-  module * { export * }
-}

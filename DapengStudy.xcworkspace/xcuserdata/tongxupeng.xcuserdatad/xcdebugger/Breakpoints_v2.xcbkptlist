@@ -7,33 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CD5B89D8-F5AB-4AE3-A3F9-227F3C8F568E"
+            uuid = "545FE792-E3E0-490A-81FA-37E295309A2C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../DPEntrance/DPEntrance/Classes/AppDelegate.m"
+            filePath = "../DPFind/DPFind/Classes/DPFindEveryDayRcommendVC.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-collectionView:didDeselectItemAtIndexPath:"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0C09BDD6-DACC-4E95-A6E4-C8E17BD68072"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../DPEntrance/DPEntrance/Classes/AppDelegate.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "-loadLaunchAd"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "545FE792-E3E0-490A-81FA-37E295309A2C - 975445197e06962e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DPFindEveryDayRcommendVC collectionView:didDeselectItemAtIndexPath:]"
+                  moduleName = "DPFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongxupeng/WorkSpace/iOS/DPFind/DPFind/Classes/DPFindEveryDayRcommendVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "545FE792-E3E0-490A-81FA-37E295309A2C - 975445197e06962e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DPFindEveryDayRcommendVC collectionView:didDeselectItemAtIndexPath:]"
+                  moduleName = "DPFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongxupeng/WorkSpace/iOS/DPFind/DPFind/Classes/DPFindEveryDayRcommendVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

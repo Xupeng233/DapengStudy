@@ -1,6 +1,0 @@
-framework module DPMine {
-  umbrella header "DPMine-umbrella.h"
-
-  export *
-  module * { export * }
-}

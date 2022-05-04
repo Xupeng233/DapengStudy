@@ -1,6 +1,0 @@
-framework module DPFind {
-  umbrella header "DPFind-umbrella.h"
-
-  export *
-  module * { export * }
-}

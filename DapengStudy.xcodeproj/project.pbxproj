@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E12FD4A33E66D2AC82D1B56 /* Pods_DapengStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7690D9B813501B8E92140219 /* Pods_DapengStudy.framework */; };
 		9227D8CB27716A8E002DEEFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9227D8CA27716A8E002DEEFE /* ViewController.m */; };
 		9227D8CE27716A8E002DEEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9227D8CC27716A8E002DEEFE /* Main.storyboard */; };
 		9227D8D027716A8F002DEEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9227D8CF27716A8F002DEEFE /* Assets.xcassets */; };
 		9227D8D327716A8F002DEEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9227D8D127716A8F002DEEFE /* LaunchScreen.storyboard */; };
 		9227D8D627716A8F002DEEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9227D8D527716A8F002DEEFE /* main.m */; };
+		B67DB25D6F2F6024FB7A56D6 /* libPods-DapengStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4309138FFB2686E97EA60BDE /* libPods-DapengStudy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18830C143E24D2104CF03992 /* Pods-DapengStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DapengStudy.release.xcconfig"; path = "Target Support Files/Pods-DapengStudy/Pods-DapengStudy.release.xcconfig"; sourceTree = "<group>"; };
-		7690D9B813501B8E92140219 /* Pods_DapengStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DapengStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4309138FFB2686E97EA60BDE /* libPods-DapengStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DapengStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9227D8C027716A8E002DEEFE /* DapengStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DapengStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9227D8C927716A8E002DEEFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9227D8CA27716A8E002DEEFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E12FD4A33E66D2AC82D1B56 /* Pods_DapengStudy.framework in Frameworks */,
+				B67DB25D6F2F6024FB7A56D6 /* libPods-DapengStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +44,7 @@
 		48D1E6400E9C7C07E3DC8838 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7690D9B813501B8E92140219 /* Pods_DapengStudy.framework */,
+				4309138FFB2686E97EA60BDE /* libPods-DapengStudy.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 				9227D8BC27716A8E002DEEFE /* Sources */,
 				9227D8BD27716A8E002DEEFE /* Frameworks */,
 				9227D8BE27716A8E002DEEFE /* Resources */,
-				5629E401B92CDCE27E8D4891 /* [CP] Embed Pods Frameworks */,
+				13BEF31E947152D0487E998A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,21 +158,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5629E401B92CDCE27E8D4891 /* [CP] Embed Pods Frameworks */ = {
+		13BEF31E947152D0487E998A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		71DC4D9981A498C89FED280A /* [CP] Check Pods Manifest.lock */ = {

@@ -19,8 +19,25 @@
     "ios": "9.0"
   },
   "source_files": "DPHome/Classes/**/*",
+  "resource_bundles": {
+    "DPHomeResource": [
+      "DPHome/Assets/*.xcassets"
+    ]
+  },
   "dependencies": {
     "QMUIKit": [
+
+    ],
+    "DPGuix": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "MJRefresh": [
 
     ]
   }

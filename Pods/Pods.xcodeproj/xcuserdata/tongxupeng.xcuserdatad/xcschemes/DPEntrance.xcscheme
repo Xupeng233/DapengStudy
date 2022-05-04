@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8ACAE8590FCBD2F0CF37F3568356B36D"
-               BuildableName = "DPEntrance.framework"
+               BuildableName = "libDPEntrance.a"
                BlueprintName = "DPEntrance"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

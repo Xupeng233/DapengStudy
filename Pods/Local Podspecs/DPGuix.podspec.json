@@ -25,6 +25,18 @@
     ],
     "QMUIKit": [
 
+    ],
+    "Masonry": [
+
+    ],
+    "lottie-ios": [
+
+    ]
+  },
+  "resource_bundles": {
+    "DPGuixResource": [
+      "DPGuix/Assets/*.{xcassets, jpg, png, webg}",
+      "DPGuix/Assets/LottieResource/*"
     ]
   }
 }

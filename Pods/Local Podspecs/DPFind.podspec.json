@@ -19,8 +19,25 @@
     "ios": "9.0"
   },
   "source_files": "DPFind/Classes/**/*",
+  "resource_bundles": {
+    "DPFindResource": [
+      "DPFind/Assets/*.xcassets"
+    ]
+  },
   "dependencies": {
     "QMUIKit": [
+
+    ],
+    "DPGuix": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "SDCycleScrollView": [
 
     ]
   }

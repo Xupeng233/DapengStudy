@@ -1,0 +1,1 @@
+../../../../../DPGuix/DPGuix/Classes/Base/NavigationController/UINavigationController+DPFullScreenPopGesture.h

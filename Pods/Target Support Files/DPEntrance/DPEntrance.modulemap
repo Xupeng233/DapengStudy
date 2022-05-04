@@ -1,6 +1,0 @@
-framework module DPEntrance {
-  umbrella header "DPEntrance-umbrella.h"
-
-  export *
-  module * { export * }
-}

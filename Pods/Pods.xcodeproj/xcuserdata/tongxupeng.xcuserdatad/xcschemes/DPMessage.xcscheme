@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E25C5D968EEF9B7B4A0B3F8610265A7"
-               BuildableName = "DPMessage.framework"
+               BuildableName = "libDPMessage.a"
                BlueprintName = "DPMessage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

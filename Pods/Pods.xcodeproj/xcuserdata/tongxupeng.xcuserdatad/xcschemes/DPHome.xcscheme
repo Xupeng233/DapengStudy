@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C244BA237CF26A2319F86150A6BE6FA"
-               BuildableName = "DPHome.framework"
+               BuildableName = "libDPHome.a"
                BlueprintName = "DPHome"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
