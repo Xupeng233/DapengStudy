@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4023033987940A260B4618A68890461"
-               BuildableName = "DPGuixResource.bundle"
-               BlueprintName = "DPGuix-DPGuixResource"
+               BlueprintIdentifier = "CCB6ACAC37BF97DF4E4587C2A9A9F0B1"
+               BuildableName = "DPGuix.bundle"
+               BlueprintName = "DPGuix-DPGuix"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

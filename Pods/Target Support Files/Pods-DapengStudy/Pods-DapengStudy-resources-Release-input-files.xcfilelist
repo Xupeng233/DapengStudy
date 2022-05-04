@@ -1,6 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-DapengStudy/Pods-DapengStudy-resources.sh
 ${PODS_CONFIGURATION_BUILD_DIR}/DPFind/DPFindResource.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuixResource.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuix.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/DPHome/DPHomeResource.bundle
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle

@@ -34,9 +34,20 @@
     ]
   },
   "resource_bundles": {
-    "DPGuixResource": [
-      "DPGuix/Assets/*.{xcassets, jpg, png, webg}",
-      "DPGuix/Assets/LottieResource/*"
+    "DPGuix": [
+      "DPGuix/Assets/**/*.{xcassets, jpg, png, webg, json}"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Resources",
+      "source_files": "DPGuix/Resources/**/*",
+      "resource_bundles": {
+        "DPGuix": [
+          "DPGuix/Assets/*.{xcassets, jpg, png, webg, json}",
+          "DPGuix/Assets/LottieResource/*"
+        ]
+      }
+    }
+  ]
 }

@@ -14,6 +14,12 @@ PODS:
     - SDCycleScrollView
   - DPGuix (0.0.5):
     - CYLTabBarController
+    - DPGuix/Resources (= 0.0.5)
+    - lottie-ios
+    - Masonry
+    - QMUIKit
+  - DPGuix/Resources (0.0.5):
+    - CYLTabBarController
     - lottie-ios
     - Masonry
     - QMUIKit
@@ -67,7 +73,7 @@ PODS:
   - libextobjc/UmbrellaHeader (0.6)
   - lottie-ios (2.5.3)
   - Masonry (1.1.0)
-  - MJRefresh (3.7.5)
+  - MJRefresh (3.6.1)
   - QMUIKit (4.4.3):
     - QMUIKit/QMUIComponents (= 4.4.3)
     - QMUIKit/QMUICore (= 4.4.3)
@@ -382,7 +388,7 @@ DEPENDENCIES:
   - libextobjc (~> 0.6)
   - lottie-ios (= 2.5.3)
   - Masonry (~> 1.1.0)
-  - MJRefresh (~> 3.7.1)
+  - MJRefresh (~> 3.6.1)
   - QMUIKit (~> 4.4.0)
   - SDCycleScrollView (~> 1.61)
   - SDWebImage (~> 5.2.5)
@@ -418,7 +424,7 @@ SPEC CHECKSUMS:
   CYLTabBarController: db44b5901a28693a8a4279e4721b3aafdd36c178
   DPEntrance: 6c7417063aa4857fc1c64d95bfa59d79948b0924
   DPFind: dfe8c8c01bd4c629ce13747d1c949c7bd6bd25f7
-  DPGuix: 554439583e4f0b050492a9a769c93fe38dd15790
+  DPGuix: 7b6506507a8bbf20eb9e14ca6be7076b1b027ac5
   DPHome: 98a9cc78ed70e3c20ae2daaa4d062bedbab31a66
   DPMessage: 779ecc49ec628d364c5d66c9641a82475197943f
   DPMine: ed646f7f5ae1b8ff033230541e972c94c8ad90ed
@@ -427,11 +433,11 @@ SPEC CHECKSUMS:
   libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
   QMUIKit: 5da6e59d5d312681ee45706af42fd3af7b4f55eb
   SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
 
-PODFILE CHECKSUM: 80e3968054102b2cae26bbae0db34cc163ef846f
+PODFILE CHECKSUM: a9201dbea393eb41d2405fdec4d57d2c06c4a841
 
 COCOAPODS: 1.11.3

@@ -98,14 +98,14 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPFind/DPFindResource.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuixResource.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuix.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPHome/DPHomeResource.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPFind/DPFindResource.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuixResource.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPGuix/DPGuix.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/DPHome/DPHomeResource.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle"

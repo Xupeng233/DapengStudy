@@ -6,14 +6,6 @@
 //
 
 #import "MJRefreshConfig.h"
-#import "MJRefreshConst.h"
-#import "NSBundle+MJRefresh.h"
-
-@interface MJRefreshConfig (Bundle)
-
-+ (void)resetLanguageResourceCache;
-
-@end
 
 @implementation MJRefreshConfig
 
@@ -27,16 +19,6 @@ static MJRefreshConfig *mj_RefreshConfig = nil;
     return mj_RefreshConfig;
 }
 
-- (void)setLanguageCode:(NSString *)languageCode {
-    if ([languageCode isEqualToString:_languageCode]) {
-        return;
-    }
-    
-    _languageCode = languageCode;
-    // 重置语言资源
-    [MJRefreshConfig resetLanguageResourceCache];
-    [NSNotificationCenter.defaultCenter
-     postNotificationName:MJRefreshDidChangeLanguageNotification object:self];
-}
+
 
 @end

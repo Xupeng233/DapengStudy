@@ -33,7 +33,7 @@ target 'DapengStudy' do
     pod 'IGListKit', '~> 4.0.0'
     pod 'QMUIKit', '~> 4.4.0'
     pod 'libextobjc', '~> 0.6'
-    pod 'MJRefresh', '~> 3.7.1'
+    pod 'MJRefresh', '~> 3.6.1'
     pod 'SDCycleScrollView','~> 1.61'
     pod 'lottie-ios', '2.5.3'
     
