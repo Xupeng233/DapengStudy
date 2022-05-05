@@ -1,6 +1,8 @@
-source 'git@github.com:Xupeng233/XupengRepo.git'
-source 'git@github.com:CocoaPods/Specs.git'
 platform :ios,'11.0'
+source 'git@github.com:Xupeng233/XupengRepo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+#建议放在文件开始或者source之后    
+install! 'cocoapods', :deterministic_uuids => false
 
 #use_frameworks!
 
