@@ -917,8 +917,8 @@
 		92F5F3BD28235CA20002DAB9 /* DPDiamondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5F3BB28235CA20002DAB9 /* DPDiamondCell.m */; };
 		92F5F3C028235DAD0002DAB9 /* DPDiamondListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F5F3BE28235DAC0002DAB9 /* DPDiamondListViewModel.h */; };
 		92F5F3C128235DAD0002DAB9 /* DPDiamondListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5F3BF28235DAD0002DAB9 /* DPDiamondListViewModel.m */; };
-		92F5F3C52823642B0002DAB9 /* DPSideInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F5F3C32823642B0002DAB9 /* DPSideInfoViewController.h */; };
-		92F5F3C62823642B0002DAB9 /* DPSideInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5F3C42823642B0002DAB9 /* DPSideInfoViewController.m */; };
+		92F5F3CA2824AB4C0002DAB9 /* DPSideInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F5F3C82824AB4C0002DAB9 /* DPSideInfoViewController.h */; };
+		92F5F3CB2824AB4C0002DAB9 /* DPSideInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5F3C92824AB4C0002DAB9 /* DPSideInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2219,8 +2219,8 @@
 		92F5F3BB28235CA20002DAB9 /* DPDiamondCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPDiamondCell.m; sourceTree = "<group>"; };
 		92F5F3BE28235DAC0002DAB9 /* DPDiamondListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPDiamondListViewModel.h; sourceTree = "<group>"; };
 		92F5F3BF28235DAD0002DAB9 /* DPDiamondListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPDiamondListViewModel.m; sourceTree = "<group>"; };
-		92F5F3C32823642B0002DAB9 /* DPSideInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DPSideInfoViewController.h; path = ../DPGuix/Classes/Biz/DPSideInfoViewController.h; sourceTree = "<group>"; };
-		92F5F3C42823642B0002DAB9 /* DPSideInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DPSideInfoViewController.m; path = ../DPGuix/Classes/Biz/DPSideInfoViewController.m; sourceTree = "<group>"; };
+		92F5F3C82824AB4C0002DAB9 /* DPSideInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSideInfoViewController.h; sourceTree = "<group>"; };
+		92F5F3C92824AB4C0002DAB9 /* DPSideInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSideInfoViewController.m; sourceTree = "<group>"; };
 		A877013EDFB3BE5534AD928181A6F8F4 /* DPMessage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DPMessage; path = libDPMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SDWebImage; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B275FE133F747DD7817533EDBD6AF437 /* DPGuix */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DPGuix; path = libDPGuix.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2508,7 +2508,7 @@
 		46EB2E000000E0 /* DPGuix */ = {
 			isa = PBXGroup;
 			children = (
-				92F5F3C2282363DC0002DAB9 /* Biz */,
+				92F5F3C72824AB4C0002DAB9 /* Biz */,
 				46EB2E00003F20 /* DPGuix.xcassets */,
 				46EB2E000005D0 /* Base */,
 				46EB2E00000710 /* CollectionView */,
@@ -4604,13 +4604,14 @@
 			path = "Target Support Files/Pods-DapengStudy";
 			sourceTree = "<group>";
 		};
-		92F5F3C2282363DC0002DAB9 /* Biz */ = {
+		92F5F3C72824AB4C0002DAB9 /* Biz */ = {
 			isa = PBXGroup;
 			children = (
-				92F5F3C32823642B0002DAB9 /* DPSideInfoViewController.h */,
-				92F5F3C42823642B0002DAB9 /* DPSideInfoViewController.m */,
+				92F5F3C82824AB4C0002DAB9 /* DPSideInfoViewController.h */,
+				92F5F3C92824AB4C0002DAB9 /* DPSideInfoViewController.m */,
 			);
-			path = Biz;
+			name = Biz;
+			path = DPGuix/Classes/Biz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4670,7 +4671,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F5F3C52823642B0002DAB9 /* DPSideInfoViewController.h in Headers */,
+				92F5F3CA2824AB4C0002DAB9 /* DPSideInfoViewController.h in Headers */,
 				46EB2E00004B20 /* DPBaseCollectionViewCell.h in Headers */,
 				46EB2E00004AB0 /* DPBaseViewController.h in Headers */,
 				46EB2E00004B30 /* DPCollectionViewCellDataModelProtocol.h in Headers */,
@@ -5780,7 +5781,7 @@
 				46EB2E00004A00 /* DPRefreshHeader.m in Sources */,
 				46EB2E00004A20 /* DPTabBarController.m in Sources */,
 				46EB2E00004A80 /* NSObject+Extensions.m in Sources */,
-				92F5F3C62823642B0002DAB9 /* DPSideInfoViewController.m in Sources */,
+				92F5F3CB2824AB4C0002DAB9 /* DPSideInfoViewController.m in Sources */,
 				46EB2E00004A90 /* UICollectionView+Refresh.m in Sources */,
 				46EB2E00004AA0 /* UIImage +Extensions.m in Sources */,
 				46EB2E000049F0 /* UINavigationController+DPFullScreenPopGesture.m in Sources */,
